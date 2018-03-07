@@ -6,8 +6,8 @@ This code is the implementation of the paper: https://arxiv.org/pdf/1712.08713.p
 2. To switch from SVM to MLP, simply call the function "run_experiment2_diff_C", Linear SVM and Kernel SVM can be switched inside function "run_experiment1_diff_C".
 3. A rough structure of the code is as follows: experiment_schedule.m -> run_experiment1_diff_C.m -> BayesianOptimization.n. BayesianOptimization.m is the main part where Bayesian Optimization method is implemented.  
 
-# Result
+# Results
 You should expect to obtain the plot of query number with different feature modification cost C.  
 
 # Pre-requisites
-You will need Matlab to run the whole code. Training data for the trained model in the paper is preprocessed and is ready in the folder "/Data". 
+You will need Matlab to run the whole code. Training data for the trained model in the paper is preprocessed and is ready in the folder "/Data". To train your own model on your own data, you will need to place the processed data into the "/Data" folder.  
