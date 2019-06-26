@@ -3,7 +3,7 @@ This code is the implementation of the paper: https://arxiv.org/pdf/1712.08713.p
 
 # To run this code: 
 1. Execute "experiment_schedule.m" file. This code provides the attack to Linear SVM, RBF kernel SVM and MLP. You are also free to train your own model and apply Bayesian optimization method to attack the underlying classifier. 
-2. To switch from SVM to MLP, simply call the function **run_experiment2_diff_C**, Linear SVM and Kernel SVM can be switched inside function "run_experiment1_diff_C".
+2. To switch from SVM to MLP, simply call the function **run_experiment2_diff_C**, Linear SVM and Kernel SVM can be switched inside function **run_experiment1_diff_C**.
 3. A rough structure of the code is as follows: `experiment_schedule.m` -> `run_experiment1_diff_C.m` -> `BayesianOptimization.m`. `BayesianOptimization.m` is the main part where Bayesian Optimization method is implemented.  
 
 # Results
